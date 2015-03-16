@@ -1,0 +1,119 @@
+body, html{
+    padding: 0;
+    margin: 0;
+    color: #555;
+}
+
+.content-wrapper{
+    max-width: 62.5em;
+    margin: auto;
+}
+
+.error{
+    background: rgba(255,50,50,0.3);
+    text-align: center;
+    width: 50%;
+    padding: 25px;
+    margin: 10px auto;
+
+    border-radius: 16px;
+}
+
+.header{
+    font-size: 2.5rem;
+    line-height: 50px;
+    color: #60c3ad;
+    font-weight: bold;
+    font-style: italic;
+    padding: 0.5rem 0.5rem;
+    background: rgba(96,192,172,0.1);
+    border-radius: 0 0 32px 32px;
+}
+
+.header .menu{
+    float: right;font-size: 1.5rem;
+}
+.header .menu a.button-menu{
+    color: #555;
+    border-radius: 32px;
+    padding: 16px 24px;
+}
+
+.header img{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.header a{
+    text-decoration: none !important;
+    color: #60c3ad;
+}
+
+.templates .block{
+    text-align: center;
+    background: rgba(96,192,172,0.1);
+    border-radius: 32px 32px;
+    padding: 16px 16px 0;
+    font-size: 1.2rem;
+    line-height: 32px;
+    color: #555;
+    transition: 0.5s;
+    font-weight: bold;
+}
+.templates .block img{
+    border-radius: 24px 24px;
+}
+.templates .block .template-name{
+    padding: 8px 0;
+}
+.templates .block:hover{
+    background: rgba(96,192,172,0.2);
+    color: #59b7a3;
+}
+
+fieldset{
+    padding: 16px !important;
+    background: #F7F7F7;
+    border-radius: 16px;
+}
+
+input, select, textarea{
+    width: 100%;
+    border: 1px solid #333333;
+}
+input.error, select.error, textarea.error{
+    width: 100%;
+    border: 1px solid #AA3333;
+}
+label{
+    color: #777;
+    font-weight: bold;
+    font-style: italic;
+}
+label:not(:first-child){
+    margin-top: 10px;
+}
+.text-center{
+    text-align: center;
+}
+.pure-img{
+    margin: auto;
+}
+.variable{
+    display: inline-block;
+}
+
+/*drop zone css override*/
+.dz-image{display: none;}
+.dz-details{display: none;}
+.dz-success-mark{display: none;}
+.dz-error-mark{display: none;}
+.dz-error-message{display: none}
+td.uploader{background-position: center center}
+
+.container .left-container, .right-container{display: inline-block}
+.viewlist{cursor: pointer}
+.alert{padding: 5px !important}
+.closemodal{background: none; border: 0px;}
+.dismiss{cursor: pointer}
+.ui-widget{font-size: 1em !important}
